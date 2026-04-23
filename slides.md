@@ -1,5 +1,5 @@
 ---
-theme: default
+theme: seriph
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -65,7 +65,7 @@ layout: center
 class: text-center
 ---
 
-# 文章一
+## 文章一
 # 黄石火山系统的构造起源
 ## *Science* (2026)
 
@@ -84,7 +84,7 @@ Zebin Cao, Lijun Liu, et al.
 layout: center
 ---
 
-## 双峰式火山活动与岩浆系统示意
+# 双峰式火山活动与岩浆系统示意
 Bimodal volcanism and magma system
 
 
@@ -274,7 +274,7 @@ Translithospheric Magma Plumbing System
 
 ### 中-下地壳
 **向西南倾斜**
-玄武质岩浆糊状物
+玄武质岩浆晶粥
 ~35 km
 
 </div>
@@ -302,7 +302,7 @@ layout: two-cols
 
 ::left::
 
-## 三维地球动力学模型
+# 三维地球动力学模型
 
 <div class="mt-4">
 
@@ -375,7 +375,7 @@ layout: two-cols
 
 # 构造力的"双重奏"
 
-<div class="mt-4">
+<div class="mt-4 text-sm">
 
 **1. 底部牵引力（Basal Traction）**
 - 软流圈"地幔风"的剪切拖曳
@@ -401,7 +401,7 @@ layout: two-cols
 
 ![Fig.4](/images/literatures/science.ady2027-f4.jpg)
 
-*Fig.4: 应力机制分解。(A,B) 总应力；(C,D) 底部拖曳力；(E,F) 岩石圈体力；(G,H) 沿剖面分解。两种应力在 ESRP 东端抵消，形成火山空白区。*
+*Fig.4: 应力机制分解。(C,D) 底部拖曳力与(E,F) 岩石圈体力在 ESRP 东端抵消，形成火山空白区。*
 
 <!--
 关键机制来了！作者提出两种构造力的叠加：底部拖曳力和岩石圈体力。软流圈流动像"风吹"岩石圈底部产生剪切；而岩石圈自身的密度差异像"重力拉扯"。两者叠加，在ESRP和黄石之间形成了一个应力"宁静区"——这就是火山空白区的成因！
@@ -412,14 +412,14 @@ layout: center
 class: text-center
 ---
 
-## TLMPS 的三维构造模型
+# TLMPS 的三维构造模型
 
 <div class="grid grid-cols-2 gap-8 items-center mt-8">
 <div class="text-left text-lg">
 
 **倾斜岩浆通道的几何形态**
 - 上地壳：近垂直补给黄石岩浆房
-- 中下地壳：向西南倾斜的玄武质糊状物
+- 中下地壳：向西南倾斜的玄武质晶粥
 - 岩石圈地幔：近水平连接软流圈熔体
 
 **构造控制核心**
@@ -428,13 +428,14 @@ class: text-center
 - 应力宁静区 = 岩浆"分水岭"
 
 </div>
+
 <div>
 
 ![Fig.5](/images/literatures/science.ady2027-f5.jpg)
 
 *Fig.5: TLMPS 三维概念模型。展示构造力如何塑造倾斜的跨岩石圈岩浆通道，以及火山空白区的应力抵消机制。*
-
 </div>
+
 </div>
 
 <!--
@@ -447,7 +448,7 @@ layout: two-cols
 
 ::left::
 
-## 文章1 核心贡献总结
+# 文章1 核心贡献总结
 
 
 <div style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 0.5rem; font-size: 0.75rem;">
@@ -455,7 +456,7 @@ layout: two-cols
     <strong style="font-size: 0.8rem;">1. 提出TLMPS概念</strong>
     <ul style="margin: 0.5rem 0 0 0; padding-left: 1.2rem;">
       <li>倾斜的跨岩石圈岩浆通道</li>
-      <li>连通软流圈与地壳糊状物</li>
+      <li>连通软流圈与地壳晶粥</li>
     </ul>
   </div>
   
@@ -519,7 +520,7 @@ layout: center
 class: text-center
 ---
 
-# 文章二
+## 文章二
 # 马里亚纳俯冲带的水输入估算
 ## *Nature* (2018)
 
@@ -538,7 +539,7 @@ Chen Cai, Douglas A. Wiens, Weisen Shen, Melody Eim
 layout: two-cols
 ---
 
-## 俯冲带：地球深部的"水泵"
+# 俯冲带：地球深部的"水泵"
 
 ::left::
 
@@ -578,7 +579,7 @@ layout: two-cols
 
 ::left::
 
-## 海底地震学突破
+# 海底地震学观测
 
 <div class="mt-4">
 
@@ -618,9 +619,9 @@ class: text-center
 ## **水化层厚达 24 km！**
 
 <div class="grid grid-cols-2 gap-8 items-center mt-8">
-<div class="text-left text-xl">
+<div class="text-left text-sm">
 
-**观测事实**
+**观测结果**
 - 低速层从海沟轴向外延伸
 - 底部达 **30±5 km** 深处
 - 其中 **24±5 km** 进入上地幔
@@ -632,7 +633,13 @@ class: text-center
 - 脆性破裂可深达此处
 - 海水沿裂隙渗入 → 蛇纹石化
 
+<div class="mt-6 text-2xl text-blue-400 font-bold">
+  <p>💡 前人假设：2 km</p>
+  <p>→ 实际发现：24 km（12倍差异！）</p>
 </div>
+
+</div>
+
 <div>
 
 <div style="display: flex; flex-direction: column; align-items: center;">
@@ -645,9 +652,6 @@ class: text-center
 </div>
 </div>
 
-<div class="mt-6 text-2xl text-blue-400 font-bold">
-💡 前人假设：2 km → 实际发现：24 km（12倍差异！）
-</div>
 
 <!--
 这是文章的核心发现。地震成像显示，低速异常体（代表水化岩石）一直延伸到Moho面以下24公里！这意味着板片弯曲产生的正断层把海水带到了前所未有的深度。前人通常假设只有2公里，差了整整12倍。
@@ -657,25 +661,30 @@ class: text-center
 layout: two-cols
 ---
 
-## 定量估算：水通量上调 4.3 倍
+# 定量估算：上调 4.3 倍
 
 ::left::
 
-<div class="mt-4">
+<div class="mt-4 text-sm">
 
-**计算参数**
+俯冲后板块中观测速度(4.1)=未蚀变地幔参考速度(4.51)-2.19Φ
+
+**计算参数** (利蛇纹石)
+
+
 - 蛇纹石化：~19 vol%（~2 wt% 水）
-- 蛇纹石类型：利蛇纹石（低温稳定）
+- 蛇纹石化层厚度: 24±5 km（上地幔部分）
+- 蛇纹石化地幔密度: ~3.32 g/cm³（橄榄岩）
 - 汇聚速率：50 mm/yr
 
 **马里亚纳总水通量**
 - 地幔蛇纹石化：**79±17 Tg/Myr/m**
-- 沉积物 + 地壳（前人）：**15 Tg/Myr/m**
+- 沉积 + 地壳（前人）：**15 Tg/Myr/m**
 - **总计：94±17 Tg/Myr/m**
 
 **对比前人估算**
 - van Keken et al. (2011): ~22 Tg/Myr/m
-- **本文结果：4.3 倍提升**
+- <strong style="color: #dc2626;">本文结果：4.3 倍提升</strong>
 
 </div>
 
@@ -683,14 +692,14 @@ layout: two-cols
 
 <div class="h-full flex flex-col justify-center">
 
-<div class="bg-gray-300 p-6 rounded-lg mb-6">
+![water-serpentinization](/images/literatures/water-serpentinization.png)
 
-### 全球尺度修正
-**老、冷俯冲带**（>40 Myr）
-- 水化层延伸至 Moho 下 **20-25 km**
-- 全球深部水通量：**3.0×10⁹ Tg/Myr**
-- **比前人估算增加约 3 倍**
-
+<div style="background: #e5e7eb; padding: 0.5rem 0.8rem; border-radius: 0.4rem; margin-bottom: 0.8rem; font-size: 0.75rem;">
+  <strong>🌍 全球尺度修正</strong><br>
+  <span style="color: #6b7280;">老、冷俯冲带（>40 Myr）</span><br>
+  &nbsp;• 水化层延伸至 Moho 下 <strong>20-25 km</strong><br>
+  &nbsp;• 全球深部水通量：<strong>3.0×10⁹ Tg/Myr</strong><br>
+  &nbsp;• <strong style="color: #dc2626;">比前人估算增加约 3 倍</strong>
 </div>
 
 <div class="text-sm opacity-80">
@@ -710,7 +719,7 @@ layout: two-cols
 
 ::left::
 
-## 方位各向异性：裂隙的指向
+# 方位各向异性：裂隙的指向
 
 <div class="mt-4 text-sm">
 
@@ -753,7 +762,7 @@ layout: two-cols
 
 ::left::
 
-## 文章2 核心贡献总结
+# 文章2 核心贡献总结
 
 
 <div style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 0.5rem; font-size: 0.75rem;">
