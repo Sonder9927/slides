@@ -81,6 +81,36 @@ Zebin Cao, Lijun Liu, et al.
 -->
 
 ---
+layout: two-cols
+---
+
+::left::
+
+# 黄石：超级火山的威胁
+
+<div class="mt-4">
+
+- **过去200万年**：3次超级喷发
+  - 2.1 Ma: Huckleberry Ridge
+  - 0.63 Ma: Lava Creek（最近一次）
+  
+- **双峰式火山作用**：
+  - 黄石：间歇性流纹质（酸性）
+  - 蛇河平原：连续性玄武质（基性）
+
+</div>
+
+::right::
+
+![Fig.1A](/images/literatures/science.ady2027-f1.jpg)
+
+*Fig.1A: 黄石地区火山分布与地形。红色=基性火山，白色=酸性火山。注意黄石与ESRP之间的"火山空白区"。*
+
+<!--
+黄石是世界上最大的活火山系统之一。过去200万年发生了3次超级喷发，最近一次是63万年前。一个有趣的现象是：黄石以酸性火山为主，而西侧的蛇河平原以基性火山为主，中间存在一个"火山空白区"。这种双峰分布一直是个谜。
+-->
+
+---
 layout: center
 ---
 
@@ -185,36 +215,6 @@ Bimodal volcanism and magma system
 </div>
 
 双峰性可以看作岩浆系统结构分离的直接表现。
-
----
-layout: two-cols
----
-
-::left::
-
-# 黄石：超级火山的威胁
-
-<div class="mt-4">
-
-- **过去200万年**：3次超级喷发
-  - 2.1 Ma: Huckleberry Ridge
-  - 0.63 Ma: Lava Creek（最近一次）
-  
-- **双峰式火山作用**：
-  - 黄石：间歇性流纹质（酸性）
-  - 蛇河平原：连续性玄武质（基性）
-
-</div>
-
-::right::
-
-![Fig.1A](/images/literatures/science.ady2027-f1.jpg)
-
-*Fig.1A: 黄石地区火山分布与地形。红色=基性火山，白色=酸性火山。注意黄石与ESRP之间的"火山空白区"。*
-
-<!--
-黄石是世界上最大的活火山系统之一。过去200万年发生了3次超级喷发，最近一次是63万年前。一个有趣的现象是：黄石以酸性火山为主，而西侧的蛇河平原以基性火山为主，中间存在一个"火山空白区"。这种双峰分布一直是个谜。
--->
 
 ---
 layout: two-cols
@@ -373,7 +373,7 @@ layout: two-cols
 
 ::left::
 
-# 构造力的"双重奏"
+# 两种构造力的叠加效应
 
 <div class="mt-4 text-sm">
 
@@ -539,7 +539,7 @@ Chen Cai, Douglas A. Wiens, Weisen Shen, Melody Eim
 layout: two-cols
 ---
 
-# 俯冲带：地球深部的"水泵"
+# 地球水循环“收支不平衡”
 
 ::left::
 
@@ -561,6 +561,38 @@ layout: two-cols
 
 <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%;">
   <img 
+    src="/images/literatures/water-cycle.png" 
+    style="width: 100%; max-width: 800px; height: auto;"
+  >
+</div>
+
+
+---
+layout: two-cols
+---
+
+# 层析成像观测
+
+::left::
+
+<div class="mt-4">
+
+**数据**
+- **19台海底宽频地震仪（OBS）** + 7个临时岛基台站
+- 覆盖外隆区 + 前弧区
+
+**方法优势**
+- 瑞利面波频散（ANT + HT）
+- **剪切波速度（Vs）** 对水化更敏感
+- 避免方位各向异性偏差
+- 分辨深度更大（~60 km）
+
+</div>
+
+::right::
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%;">
+  <img 
     src="/images/literatures/cai2018nature-f1.webp" 
     style="width: 100%; max-width: 800px; height: auto;"
   >
@@ -571,44 +603,6 @@ layout: two-cols
 
 <!--
 俯冲带就像地球的水泵，把海水"抽"进地幔。但问题是：到底抽了多少水？前人估算差异巨大，主要是因为不知道俯冲板片的水化层有多厚。特别是像马里亚纳这样的老、冷板片（1.5亿年），数据非常缺乏。
--->
-
----
-layout: two-cols
----
-
-::left::
-
-# 海底地震学观测
-
-<div class="mt-4">
-
-**技术创新**
-- **19台海底宽频地震仪（OBS）** + 7个临时岛基台站
-- 覆盖外隆区 + 前弧区
-
-**方法优势**
-- 瑞利面波分析（Rayleigh-wave）
-- **剪切波速度（Vs）** 对水化更敏感
-- 避免方位各向异性偏差
-- 分辨深度更大（~60 km）
-
-</div>
-
-::right::
-
-<div style="display: flex; flex-direction: column; align-items: center;">
-  <img 
-    src="/images/literatures/cai2018nature-f2.webp" 
-    style="width: 53%; max-width: 800px; height: auto;"
-  >
-  <p style="font-size: 0.85rem; color: #555; margin-top: 12px; text-align: center;">
-    <strong>Fig.2a-c:</strong> 跨海沟剖面的剪切波速度（Vsv）结构。暖色=低速（水化），冷色=高速。白圈=地震，白线=Moho面。
-  </p>
-</div>
-
-<!--
-这篇文章的方法突破在于使用了海底地震仪阵列。与船载主动源地震不同，OBS可以长期记录天然地震的面波信号，探测深度更大，而且对剪切波速度敏感——而剪切波对岩石水化（蛇纹石化）非常敏感。
 -->
 
 ---
@@ -625,7 +619,6 @@ class: text-center
 - 低速层从海沟轴向外延伸
 - 底部达 **30±5 km** 深处
 - 其中 **24±5 km** 进入上地幔
-- 俯冲后仍保持 **30±5 km** 厚度
 
 **关键机制**
 - 板片弯曲区正断层发育
